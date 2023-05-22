@@ -1,0 +1,255 @@
+*{
+	color: #000;
+}
+a,a:hover{
+	text-decoration: none;
+}
+ul,li{
+	list-style: none;
+	padding-left: 0;
+}
+body{
+	font-family: 'Nunito', sans-serif;
+}
+.jumbotron{
+	background-color: transparent;
+}
+.navbar-light .navbar-nav .nav-link{
+	font-family: 'Nunito', sans-serif;
+	font-size: 1.3rem;
+	color: #000;
+	padding-bottom: 2px;
+	padding-left: 0;
+	padding-right: 0;
+	margin: 0.5rem;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+ border-bottom: 2px solid #000;
+}
+.navbar-brand{
+	margin-right: 0;
+}
+.touch{
+	background-color: #EC7A7A;
+	border: none;
+	font-size: 1.3rem;
+	border-radius: 40px;
+	padding: 6px 20px;
+	margin-left: 2rem;
+}
+.intro-msg1 {
+	font-weight: 400;
+	font-size: 30px;
+}
+.intro-msg1 span {
+	color: #EC7A7A
+}
+.intro-msg2 {
+	font-weight:bold;
+	font-size: 20px;
+}
+.resume{
+		background-color: #EC7A7A;
+		border: none;
+    font-size: 18px;
+    border-radius: 30px;
+    padding: 5px 20px;
+}
+.bgline {
+	padding: 25px;
+	background-image: url(../images/Vector197.png), url(../images/Vector196.png), url(../images/Vector197.png);
+	background-position:0% 60%, 0% 67%, 0% 74%;
+	/* background-position:0% 86%, 0% 96%, 0% 76%; */
+	background-size: 100% 80%;
+	background-repeat: no-repeat;
+}
+.bg1{
+	background: #679BD366;
+  border-radius: 40px;
+}
+.btn-view{
+	background-color: #2D7ACB;
+	font-size: 18px;
+	border-radius: 20px;
+	padding: 8px 20px;
+	border: none;
+}
+.bg1 .text,.bg2 .text{
+	font-size: 20px;
+}
+.bg1 .p1{
+	max-width: 400px;
+}
+.bg2{
+	background: linear-gradient(180deg, #004990 0%, #BBBDD9 45.56%, #D4CAD7 57.94%, #DAA3A9 97.69%);
+  border-radius: 40px;
+}
+.bg2 .title{
+	font: "Century Gothic";
+	font-weight: 700;
+	font-size: 40px;
+}
+.red {
+	color: #CE4655;
+}
+.blue {
+	color: #004990;
+}
+.purple{
+	background: #BC4A80 ;
+}
+.bg3{
+	background: #CDDDC5;
+}
+.skills {
+	color: #BF8484;
+	font-size: 20px;
+}
+.skills-red {
+	margin: 5px 9px;
+	background-color: #EC7A7A;
+	height: 16px;
+	width: 16px;
+	border-radius: 50%;
+	display: inline-block;
+}
+.skills-gray {
+	margin: 5px 9px;
+	background-color: #D9D9D9;
+	height: 16px;
+	width: 16px;
+	border-radius: 50%;
+	display: inline-block;
+}
+footer {
+	height: 480px;
+	background-image: url("../images/Vector198.png"), url("../images/Vector199.png"), url("../images/Vector200.png");
+	background-position: 0% 32%, 0% 52%, 0% 72%;
+	background-size: 100% 80%;
+	background-repeat: no-repeat;
+}
+.list-group{
+	margin-left: 1.5rem;
+}
+/* voluble */
+.voluble{
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  font-size: 20px;
+}
+.box1 .text{
+	width: 60%;
+	font-size: 20px;
+}
+.box1 h3{
+	font-weight: bold;
+	font-size: 22px;
+}
+.box1 p{
+	font-size: 23px;
+}
+.process h2{
+	font-weight: 700;
+  font-size: 35px;
+  color: #679CD0;
+}
+
+.process li{
+	list-style-type:disc;
+}
+.process .card1{
+	min-height: 270px;
+	background: #C2D7ED;
+    border-radius: 15px;
+}
+.empathize h2{
+	font-style: italic;
+	color: #679CD0;
+}
+.empathize h4{
+	font-weight: 700;
+  font-size: 28px;
+  color: #679CD0;
+}
+.empathize  li{
+	list-style-type:disc;
+}
+.empathize .box1 .p{
+	width: 80%;
+}
+.empathize .b{
+	color: #004990;
+  font-size: 32px;
+}
+.empathize .box2{
+    font-size: 34px;
+}
+.empathize .card1{
+	background: #D9D9D9;
+	font-size: 19px;
+	min-height: 90px;
+}
+.empathize .box3{
+	font-style: italic;
+}
+.font-normal{
+	font-style: normal !important;
+}
+.blue{
+	color: #679CD0;
+}
+.bg1 .img1{
+	display: block;
+}
+.bg1 .img2{
+	display: none;
+}
+.bg1-1{
+	background-color: #d6e3f0;
+	box-shadow: 5px 5px 8px #ccc;
+}
+.bg1-1 .img1{
+	display: none;
+}
+.bg1-1 .img2{
+	display: block;
+}
+.bg2:hover{
+	box-shadow: 5px 5px 8px #ccc;
+}
+.bg3 .img1{
+	display: block;
+}
+.bg3 .img2{
+	display: none;
+}
+.bg3-1{
+	background-color: #c1dfb2;
+	box-shadow: 5px 5px 8px #ccc;
+}
+.bg3-1 .img1{
+	display: none;
+}
+.bg3-1 .img2{
+	display: block;
+}
+@media (max-width: 750px) {
+  .touch,.hidden{
+		display: none !important;
+	}
+}
+@media (min-width: 768px){
+	.bd {
+    padding-left: 5rem!important;
+		padding-right: 5rem!important;
+	}
+}
+@media (min-width: 992px){
+	.skill .col-lg-2{
+			-ms-flex: 0 0 20%!important;
+			flex: 0 0  20%!important;
+			max-width:  20%!important;
+	}
+}
+
+
+
